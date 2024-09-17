@@ -4,7 +4,6 @@ function Header({headerText}) {
   return (
     <div className='header'>
       {headerText}
-
     </div>
   )
 }

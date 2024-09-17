@@ -33,7 +33,7 @@
     background-color: white;
     width: 50%;
     padding: 5%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:cursive;
     max-width: 90%;
   }
   .info-right b {
@@ -87,7 +87,7 @@
     margin-top: 200px;
   }
   .mb-10 {
-    margin-bottom: 10rem; /* Adjust this value as needed */
+    margin-bottom: 10rem; 
   }
   .review-component{
     border-top: 1px solid white;
@@ -104,9 +104,11 @@
     color: white;
   }
 .review-text {
-  width: 90%;
+  width: 80%;
   margin-left: 7%;
   margin-right: 7%;
+  font-family:cursive;
+  font-size: 4vh;
 }
 .faq-component p{
   font-size: 100px;
@@ -133,6 +135,7 @@
 .faq-item {
   border-bottom: 1px solid #ccc;
   margin: 10px 0;
+  font-family:cursive;
 }
 
 .faq-question {
@@ -146,8 +149,6 @@
   color: white;
   transition: background-color 0.3s ease;
 }
-
-
 .faq-answer {
   padding: 15px;
   font-size: 16px;
@@ -173,7 +174,6 @@
 .comment-component button{
   width: fit-content;
   margin-bottom: 5%;
-
 }
 .footer-component{
   display: flex;
@@ -188,6 +188,7 @@
   width: 50%;
   display: flex;
   gap: 10%;
+  font-weight: bold;
 }
 .footer-component-2{
   width: 50%;
@@ -206,6 +207,16 @@
   padding-right: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.arrow:hover {
+  color: #939393;
 }
   
   

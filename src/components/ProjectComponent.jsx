@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 function ProjectComponent() {
     return (
@@ -56,7 +56,7 @@ function ProjectComponent() {
                         </Card.Body>
                     </Card>
                 </div>
-                
+
             </div>
         </div>
     )
